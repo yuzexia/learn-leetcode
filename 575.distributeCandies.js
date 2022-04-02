@@ -27,3 +27,11 @@ var distributeCandies = function(candyType) {
 };
 
 distributeCandies([1,1,2,3]);
+
+// 官解--更优
+var distributeCandies2 = function(candyType) {
+	var result = new Set(candyType);
+	return Math.min(result.size, candyType.length / 2);
+}
+
+distributeCandies2([1,1,2,3]);
