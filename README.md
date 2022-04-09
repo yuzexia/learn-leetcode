@@ -6,3 +6,4 @@
 - [34.在排序数组中查找元素的第一个和最后一个位置](https://github.com/yuzexia/learn-leetcode/blob/master/34.searchRange.js)
 - [796. 旋转字符串](https://github.com/yuzexia/learn-leetcode/blob/master/796.rotateString.js)
 - [153. 寻找旋转排序数组中的最小值](https://github.com/yuzexia/learn-leetcode/blob/master/153.findMin.js)
+- [162. 寻找峰值](https://github.com/yuzexia/learn-leetcode/blob/master/162.findPeakElement.js)
