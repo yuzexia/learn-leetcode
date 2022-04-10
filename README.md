@@ -7,3 +7,4 @@
 - [796. 旋转字符串](https://github.com/yuzexia/learn-leetcode/blob/master/796.rotateString.js)
 - [153. 寻找旋转排序数组中的最小值](https://github.com/yuzexia/learn-leetcode/blob/master/153.findMin.js)
 - [162. 寻找峰值](https://github.com/yuzexia/learn-leetcode/blob/master/162.findPeakElement.js)
+- [844. 比较含退格的字符串](https://github.com/yuzexia/learn-leetcode/blob/master/844.backspaceCompare.js)
