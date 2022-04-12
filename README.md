@@ -9,3 +9,4 @@
 - [162. 寻找峰值](https://github.com/yuzexia/learn-leetcode/blob/master/162.findPeakElement.js)
 - [844. 比较含退格的字符串](https://github.com/yuzexia/learn-leetcode/blob/master/844.backspaceCompare.js)
 - [357. 统计各位数字都不同的数字个数](https://github.com/yuzexia/learn-leetcode/blob/master/357.countNumbersWithUniqueDigits.js)
+- [806. 写字符串需要的行数](https://github.com/yuzexia/learn-leetcode/blob/master/806.numberOfLines.js)
