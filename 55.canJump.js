@@ -21,7 +21,7 @@ var canJump = function(nums) {
     	if(i <= rightMost) {
     		// 最远到达的位置，基于i位置，再前进最大nums[i]步
     		rightMost = Math.max(rightMost, i + nums[i]);
-
+    		console.log('第几次', i);
     		// 当达到的最大距离大于目标位置直接返回true
     		if(rightMost >= length - 1) {
     			return true;
@@ -31,8 +31,7 @@ var canJump = function(nums) {
     return false;
 };
 
-var nums = [2,3,1,1,4];
-// var nums = [3,2,1,0,4];
-// var nums = [3, 0, 0, 2, 4]
+// var nums = [2,3,1,1,4];
+var nums = [2,3,0,1,4];
 
 console.log('result', canJump(nums));

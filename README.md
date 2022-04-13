@@ -11,3 +11,4 @@
 - [357. 统计各位数字都不同的数字个数](https://github.com/yuzexia/learn-leetcode/blob/master/357.countNumbersWithUniqueDigits.js)
 - [806. 写字符串需要的行数](https://github.com/yuzexia/learn-leetcode/blob/master/806.numberOfLines.js)
 - [55. 跳跃游戏](https://github.com/yuzexia/learn-leetcode/blob/master/55.canJump.js)
+- [45. 跳跃游戏 II](https://github.com/yuzexia/learn-leetcode/blob/master/45.jump.js)
