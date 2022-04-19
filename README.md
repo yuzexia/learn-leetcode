@@ -14,3 +14,5 @@
 - [45. 跳跃游戏 II](https://github.com/yuzexia/learn-leetcode/blob/master/45.jump.js)
 - [1672. 最富有客户的资产总量](https://github.com/yuzexia/learn-leetcode/blob/master/1672.maximumWealth.js)
 - [386. 字典序排数](https://github.com/yuzexia/learn-leetcode/blob/master/386.lexicalOrder.js)
+- [819. 最常见的单词](https://github.com/yuzexia/learn-leetcode/blob/master/819.mostCommonWord.js)
+- [11. 盛最多水的容器](https://github.com/yuzexia/learn-leetcode/blob/master/11.maxArea.js)
