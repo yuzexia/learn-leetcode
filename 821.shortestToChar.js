@@ -15,23 +15,41 @@
  * @param {character} c
  * @return {number[]}
  */
+// var shortestToChar = function(s, c) {
+// 	const cIdx = [];
+// 	const result = [];
+// 	// 获取目标字母c在s中的索引数组
+// 	for (let i = 0; i < s.length; i++) {
+// 		if (s[i] === c) {
+// 			cIdx.push(i);
+// 		}
+// 	}
+// 	for (let i = 0; i < s.length; i++) {
+// 		const lIdx = [];
+// 		cIdx.forEach(item => lIdx.push(Math.abs(i - item)));
+// 		result.push(Math.min.apply(Math, lIdx));
+// 	}
+// 	return result;
+// };
 var shortestToChar = function(s, c) {
-	const cIdx = [];
-	const result = [];
-	// 获取目标字母c在s中的索引数组
-	for (let i = 0; i < s.length; i++) {
-		if (s[i] === c) {
-			cIdx.push(i);
-		}
-	}
-	for (let i = 0; i < s.length; i++) {
-		const lIdx = [];
-		cIdx.forEach(item => lIdx.push(Math.abs(i - item)));
-		result.push(Math.min.apply(Math, lIdx));
-	}
-	return result;
-};
+    const n = s.length;
+    const ans = new Array(n).fill(0);
 
+    for (let i = 0, idx = -n; i < n; ++i) {
+        if (s[i] === c) {
+            idx = i;
+        }
+        ans[i] = i - idx;
+    }
+    console.log('test', ans);
+    for (let i = n - 1, idx = 2 * n; i >= 0; --i) {
+        if (s[i] == c) {
+            idx = i;
+        }
+        ans[i] = Math.min(ans[i], idx - i);
+    }
+    return ans;
+};
 var s = "loveleetcode";
 var c = "e";
 
