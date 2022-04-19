@@ -16,3 +16,4 @@
 - [386. 字典序排数](https://github.com/yuzexia/learn-leetcode/blob/master/386.lexicalOrder.js)
 - [819. 最常见的单词](https://github.com/yuzexia/learn-leetcode/blob/master/819.mostCommonWord.js)
 - [11. 盛最多水的容器](https://github.com/yuzexia/learn-leetcode/blob/master/11.maxArea.js)
+- [821. 字符的最短距离](https://github.com/yuzexia/learn-leetcode/blob/master/11.maxArea.js)
