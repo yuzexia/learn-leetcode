@@ -18,3 +18,5 @@
 - [11. 盛最多水的容器](https://github.com/yuzexia/learn-leetcode/blob/master/11.maxArea.js)
 - [821. 字符的最短距离](https://github.com/yuzexia/learn-leetcode/blob/master/821.shortestToChar.js)
 - [824. 山羊拉丁文](https://github.com/yuzexia/learn-leetcode/blob/master/824.toGoatLatin.js)
+
+- [396. 旋转函数](https://github.com/yuzexia/learn-leetcode/blob/master/396.maxRotateFunction.js)
