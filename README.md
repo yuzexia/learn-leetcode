@@ -20,3 +20,5 @@
 - [824. 山羊拉丁文](https://github.com/yuzexia/learn-leetcode/blob/master/824.toGoatLatin.js)
 
 - [396. 旋转函数](https://github.com/yuzexia/learn-leetcode/blob/master/396.maxRotateFunction.js)
+
+- [868. 二进制间距](https://github.com/yuzexia/learn-leetcode/blob/master/868.binaryGap.js)
