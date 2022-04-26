@@ -34,14 +34,23 @@ var binaryGap = function(n) {
 };
 */
 
-// 宫水三叶题解
-// 根据题意进行模拟即可，遍历 nn 的二进制中的每一位 i，
+// 题解
+// 根据题意进行模拟即可，遍历 n 的二进制中的每一位 i，
 // 同时记录上一位 1 的位置 j，即可得到所有相邻 1 的间距，所有间距取 max 即是答案。
 var binaryGap = function(n) {
-	let j = 0;
-	
-}
+    let last = -1, ans = 0;
+    for (let i = 0; n != 0; ++i) {
+        if ((n & 1) === 1) {
+            if (last !== -1) {
+                ans = Math.max(ans, i - last);
+            }
+            last = i;
+        }
+        n >>= 1;
+    }
+    return ans;
+};
 
-var n = 8;
+var n = 22;
 
 console.log('result', binaryGap(n));
