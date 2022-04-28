@@ -22,3 +22,5 @@
 - [396. 旋转函数](https://github.com/yuzexia/learn-leetcode/blob/master/396.maxRotateFunction.js)
 
 - [868. 二进制间距](https://github.com/yuzexia/learn-leetcode/blob/master/868.binaryGap.js)
+
+- [905. 按奇偶排序数组](https://github.com/yuzexia/learn-leetcode/blob/master/905.sortArrayByParity.js)
