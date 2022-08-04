@@ -34,6 +34,9 @@
 ##### 五月
 
 - [518. 零钱兑换 II](https://github.com/yuzexia/learn-leetcode/blob/master/宫水三叶/五月/518.change.js)
+- [518. 零钱兑换 II](https://github.com/yuzexia/learn-leetcode/blob/master/宫水三叶/五月/518.change.js.js)
+- [942. 增减字符串匹配](https://github.com/yuzexia/learn-leetcode/blob/master/宫水三叶/五月/942.diStringMatch.js)
+- [494. 目标和](https://github.com/yuzexia/learn-leetcode/blob/master/宫水三叶/五月/494.findTargetSumWays.js)
 
 
 
