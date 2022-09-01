@@ -33,5 +33,19 @@
  * @return {number[]}
  */
 var finalPrices = function(prices) {
-    
+  const result = []
+  for(let i = 0; i < prices.length; i++){
+      const _array = prices.slice(i + 1)
+      const disCount = _array.find(item => item <= prices[i])
+      if(disCount) {
+          result.push(prices[i] - disCount)
+      } else {
+          result.push(prices[i])
+      }
+  }
+  return result
 };
+
+var prices = [8,4,6,2,3];
+
+finalPrices(prices)
