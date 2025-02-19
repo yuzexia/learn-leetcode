@@ -19,6 +19,6 @@ function maxScore(nums: number[]): number {
   }).length
 };
 
-const nums = [2,-1,0,1,-3,3,-3]
+const nims = [2,-1,0,1,-3,3,-3]
 
-maxScore(nums)
+maxScore(nims)
